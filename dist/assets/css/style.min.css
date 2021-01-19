@@ -371,6 +371,9 @@ body {
     height: 100%;
     object-fit: cover; }
 
+.sidebar__content {
+  padding: 0 2rem; }
+
 .main {
   padding-left: 300px;
   padding-top: 10rem; }
@@ -395,7 +398,20 @@ body {
   text-align: center; }
 
 .profile__prof {
+  margin-bottom: 2rem;
   font-size: 1.4em;
   font-weight: 300;
   color: #dedede;
   text-align: center; }
+
+.profile__text {
+  font-size: 1.2rem;
+  text-align: center;
+  border-top: 1px solid #1c1c1c; }
+
+.social {
+  display: flex;
+  justify-content: center; }
+
+.social__item {
+  margin: 0.75rem; }
